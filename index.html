@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanifa Khanam | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-container">
+            <h1 class="logo">HK.dev</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <div class="hero">
+                <h2>Software Engineering Student</h2>
+                <h1>Hanifa Khanam.</h1>
+                <div class="typing-container">
+                    <span id="typing-text"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-heading">About Me</h2>
+            <div class="about-content" style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: center;">
+                <div class="about-text">
+                    <p>I am a dedicated Software Engineering student with a strong focus on <strong>Backend Systems</strong> and <strong>Object-Oriented Design</strong>. My engineering mindset is built on solving complex logic problems, currently specializing in Python and C++.</p>
+                    <br>
+                    <p>My goal is to bridge the gap between human needs and technical solutions, focusing on clean, scalable code and efficient algorithms.</p>
+                </div>
+                <div class="about-image">
+                    <div style="width: 250px; height: 250px; border: 2px solid var(--accent); border-radius: 20px; position: relative;">
+                        <img src="hanifa khanam.png" alt="Hanifa Khanam" style="width: 100%; height: 100%; object-fit: cover; border-radius: 18px; position: absolute; top: 10px; left: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-heading">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fab fa-python" style="color:#3776ab"></i><br><br>Python (OOP)</div>
+                <div class="skill-item"><i class="fas fa-code" style="color:#00599c"></i><br><br>C++ (DSA)</div>
+                <div class="skill-item"><i class="fab fa-html5" style="color:#e34f26"></i><br><br>HTML5</div>
+                <div class="skill-item"><i class="fab fa-css3-alt" style="color:#1572b6"></i><br><br>CSS3</div>
+                <div class="skill-item"><i class="fas fa-database" style="color:#4479a1"></i><br><br>JSON / CSV</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-heading">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Personal Expense Tracker</h3>
+                    <p>A sophisticated logic-based application using Python OOP. Features data persistence with JSON and custom decorators for activity logging.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>OOP</span>
+                        <span>JSON</span>
+                    </div>
+                    <a href="https://github.com/hanifa-khanam/ai-ml-learning-journey/tree/main/PersonalExpenseTracker" target="_blank" class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Library Management</h3>
+                    <p>A modular file-handling system in Python to manage inventory, book issuance, and user records with real-time JSON updates.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>File I/O</span>
+                        <span>Modular Design</span>
+                    </div>
+                    <a href="https://github.com/hanifa-khanam/ai-ml-learning-journey/blob/main/projects%20from%20basics%20to%20file%20handling/6_library_management_system.py" target="_blank" class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Multi-Function Suite</h3>
+                    <p>A collection of 30+ Python utilities showcasing algorithm implementation, math logic, and system-level interactions.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Algorithms</span>
+                        <span>Logic</span>
+                    </div>
+                    <a href="https://github.com/hanifa-khanam/ai-ml-learning-journey/blob/main/projects%20from%20basics%20to%20file%20handling/30%20mini%20projects%20in%20one%20console.py" target="_blank"  class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-heading">Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Science in Software Engineering</h3>
+                <p style="color: var(--accent); font-family: var(--font-mono); margin: 0.5rem 0;">Virtual University of Pakistan</p>
+                <p style="font-size: 0.85rem; margin-bottom: 1rem;">2025 - 2029 (Expected)</p>
+                <p class="details" style="color: var(--text-muted)">
+                    Focused on core software engineering concepts including advanced C++, 
+                    Object-Oriented programming architectures, and efficient Data Structures.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-heading">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm currently looking for internships and open-source collaborations. If you have a question or just want to say hi, my inbox is always open!</p>
+                    <br>
+                    <p><strong><i class="fas fa-envelope"></i> Email:</strong> hanifakhanam2529@gmail.com</p>
+                    <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                        <a href="https://github.com/hanifa-khanam" target="_blank"  style="color: var(--accent); font-size: 1.5rem;"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hanifakhanam250220499/" target="_blank" style="color: var(--accent); font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hanifa Khanam. Engineered with Passion.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
