@@ -34,3 +34,6 @@ This repository contains my **personal portfolio website**, showcasing my:
 - Add more projects
 - Integrate AI-based features
 
+- ⭐ If you like this portfolio, feel free to star the repository!
+
+
