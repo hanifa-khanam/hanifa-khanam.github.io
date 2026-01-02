@@ -14,7 +14,7 @@ This repository contains my **personal portfolio website**, showcasing my:
 ---
 
 ## 🔗 Live Portfolio
-👉 [https://hanifa-khanam.github.io/Portfolio/](https://hanifa-khanam.github.io/Portfolio/)
+👉 [https://hanifa-khanam.github.io/](https://hanifa-khanam.github.io/)
 
 ---
 
