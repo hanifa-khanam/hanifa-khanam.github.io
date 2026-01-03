@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Typing Effect ---
     const textElement = document.getElementById('typing-text');
-    const phrases = ["BS Software Engineering Student", "AI/ML Learner", "Problem Solver"];
+    const phrases = ["2nd Semester Student @ VU", "Specializing in Python & C++", "AI/ML Learner"];
     let phraseIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
