@@ -31,10 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Typing Effect ---
     const textElement = document.getElementById('typing-text');
     const phrases = [
-            "3rd Semester Student @ VU",
+            "4th Semester Student @ VU",
             "Code. Learn. Build. Repeat.",
-            "Python • C++ • AI/ML Explorer",
-            "Turning Ideas into Intelligent Systems"];
+            "Python • C++ • Data Structures",
+            "Data Analysis • Machine Learning",
+            "Code. Learn. Build. Repeat."];
     let phraseIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
